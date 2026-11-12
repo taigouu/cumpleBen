@@ -42,13 +42,14 @@ video.addEventListener("ended", () => {
 });
 // LISTA DE FOTOGRAFÍAS
 
-const fotos = [
-    "imagenes/foto1.jpg",
-    "imagenes/foto2.jpg",
-    "imagenes/foto3.jpg",
-    "imagenes/foto4.jpg",
-    "imagenes/foto5.jpg",
-    "imagenes/foto6.jpg"
+   const fotos = [
+    "foto1.jpg",
+    "foto2.jpg",
+    "foto3.jpg",
+    "foto4.jpg",
+    "foto5.jpg",
+    "foto6.jpg"
+];
 ];
 
 // ELEMENTOS DEL HTML

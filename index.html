@@ -11,29 +11,39 @@
 </head>
 
 <body>
+
+    <!-- PANTALLA DE BIENVENIDA -->
     <div id="pantalla-bienvenida">
-    <button id="boton-iniciar" aria-label="Entrar a la página">
-        ▶
-    </button>
-</div>
+        <button id="boton-iniciar" aria-label="Entrar a la página">
+            ▶
+        </button>
+    </div>
+
+    <!-- MÚSICA DE FONDO -->
     <audio id="musica-fondo" loop>
-    <source src="audio/musica.mp3" type="audio/mpeg">
-</audio>
+        <source src="musica.mp3" type="audio/mpeg">
+    </audio>
 
     <header>
         <p>ÁLBUM DE RECUERDOS</p>
+
         <h1>Feliz cumpleaños Bro 🥹</h1>
+
         <p>Por todas las historias que vivimos, y las que nos quedan por vivir.</p>
-           <img src="imagenes/gato-cumple.png" alt="Gatito con gorro de cumpleaños" class="gato-cumple">
+
+        <img src="gato-cumple.png"
+             alt="Gatito con gorro de cumpleaños"
+             class="gato-cumple">
     </header>
 
     <main>
 
+        <!-- CARRUSEL DE FOTOGRAFÍAS -->
         <section id="carrusel">
             <h2>Nuestros recuerdos más recientes 🫣📸</h2>
 
             <div class="foto">
-                <img src="imagenes/foto1.jpg" alt="Un recuerdo juntos">
+                <img src="foto1.jpg" alt="Un recuerdo juntos">
             </div>
 
             <div class="controles">
@@ -42,9 +52,10 @@
             </div>
         </section>
 
+        <!-- DEDICATORIA -->
         <section id="dedicatoria">
+
             <h2>Un año más de historias juntos, increíble cómo pasa el tiempo 😭</h2>
-            
 
             <p>
                 Gracias por cada recuerdo,
@@ -55,27 +66,30 @@
                 Ojalá que nunca falten nuestras historias súper cool
                 para contarles a nuestros hijos. 😼
             </p>
-            
-          <section id="seccion-video">
-    <h2>Y obviamente, no podía faltar esto KAJWJWJSD:</h2>
 
-    <video id="video-cumple" controls>
-        <source src="videos/cumpleaños.mp4#t=23" type="video/mp4">
-        Tu navegador no puede reproducir este video.
-    </video>
-</section>
-            
-            
-            
-            
-            
-            
+            <!-- VIDEO DE CUMPLEAÑOS -->
+            <section id="seccion-video">
 
-            <h3>¡Felices 19 bro 🥹!<br>
-            (casi 20¿) <br> Te quiero mucho ♡</h3>
+                <h2>Y obviamente, no podía faltar esto KAJWJWJSD:</h2>
+
+                <video id="video-cumple" controls>
+                    <source src="cumpleaños.mp4#t=23" type="video/mp4">
+                    Tu navegador no puede reproducir este video.
+                </video>
+
+            </section>
+
+            <h3>
+                ¡Felices 19 bro 🥹!<br>
+                (casi 20¿)<br>
+                Te quiero mucho ♡
+            </h3>
+
         </section>
 
     </main>
-<script src="script.js"></script>
+
+    <script src="script.js"></script>
+
 </body>
 </html>
