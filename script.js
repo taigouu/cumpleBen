@@ -50,7 +50,6 @@ video.addEventListener("ended", () => {
     "foto5.jpg",
     "foto6.jpg"
 ];
-
 // ELEMENTOS DEL HTML
 
 const imagen = document.querySelector(".foto img");
